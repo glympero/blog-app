@@ -1,0 +1,27 @@
+{
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "This is a Blog app for displaying RESTful routings",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glympero/blog-app.git"
+  },
+  "author": "Georgios Lymperopoulos <glympe77@gmail.com> (http://glympero.tk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glympero/blog-app/issues"
+  },
+  "homepage": "https://github.com/glympero/blog-app#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-sanitizer": "^1.0.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.3"
+  }
+}
